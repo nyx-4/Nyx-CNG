@@ -20,7 +20,13 @@ CNG is an acronym for _**C**urses **N**ew-**G**eneration._
 The Nyx-CNG has various header files for different features. A breif overview of them is given.
 
 ## Nyx-CNG.h
-**Headers required:** `iostream`, `Nyx-ANSI`  
+**Headers required:**  `iostream`, `termios.h`, `unistd.h`, `Nyx-ANSI.h`, `Nyx-Mouse.h`, `Nyx-CNG-Core.h`  
+**OS compatibility:** `All`  
+### Features:
+- Everything in `Nyx-CNG-Core.h` with additional mouse and raw input support.
+
+## Nyx-CNG-Core.h
+**Headers required:** `iostream`, `Nyx-ANSI.h`  
 **OS compatibility:** `All`  
 ### Features:
 - `gotoyx`

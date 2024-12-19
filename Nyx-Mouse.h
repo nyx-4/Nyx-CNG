@@ -54,9 +54,9 @@ void enable_raw_mode(int ChToWait = 0, int TimeToWait = 0, bool enableMouse = fa
 }
 
 // @brief A utility function to debug the mouse event
-void printMouse(MEVENT MouseEvent) {
-    cout << "x: " << MouseEvent.x << ", y: " << MouseEvent.y << ", z: " << MouseEvent.z << ", Shift: " << MouseEvent.Shift << ", Alt: " << MouseEvent.Alt << ", Ctrl: " << MouseEvent.Ctrl << ", " << "MB" << MouseEvent.MB << ", ScrUp: " << MouseEvent.ScrUp << ", ScrDn: " << MouseEvent.ScrDn << ", Release: " << MouseEvent.Release << "\n";
-}
+// void printMouse(MEVENT MouseEvent) {
+//     cout << "x: " << MouseEvent.x << ", y: " << MouseEvent.y << ", z: " << MouseEvent.z << ", Shift: " << MouseEvent.Shift << ", Alt: " << MouseEvent.Alt << ", Ctrl: " << MouseEvent.Ctrl << ", " << "MB" << MouseEvent.MB << ", ScrUp: " << MouseEvent.ScrUp << ", ScrDn: " << MouseEvent.ScrDn << ", Release: " << MouseEvent.Release << "\n";
+// }
 
 void handleClick(MEVENT& MouseEvent) {
     char c;

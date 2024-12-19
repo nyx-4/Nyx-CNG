@@ -46,3 +46,16 @@ char BLINK[] = "\033[5m";
 char REVERSE[] = "\033[7m";
 char HIDDEN[] = "\033[8m";
 char STRIKETHROUGH[] = "\033[9m";
+
+char RESET_BRIGHT[] = "\033[22m";
+char RESET_BOLD[] = "\033[22m";
+char RESET_DIM[] = "\033[22m";
+char RESET_ITALIC[] = "\033[23m";
+char RESET_UNDERLINE[] = "\033[24m";
+char RESET_BLINK[] = "\033[25m";
+char RESET_REVERSE[] = "\033[27m";
+char RESET_HIDDEN[] = "\033[28m";
+char RESET_STRIKETHROUGH[] = "\033[29m";
+
+char CURSOR_INVISIBLE[] = "\033[?25l";
+char CURSOR_VISIBLE[] = "\033[?25h";
