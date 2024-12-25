@@ -59,3 +59,14 @@ char RESET_STRIKETHROUGH[] = "\033[29m";
 
 char CURSOR_INVISIBLE[] = "\033[?25l";
 char CURSOR_VISIBLE[] = "\033[?25h";
+
+char INSERT_CHARACTER[] = "\033[@";
+char DELETE_CHARACTER[] = "\033[P";
+
+char DELETE_LINE[] = "\033[M";
+char INSERT_LINE[] = "\033[L";
+
+char CURSOR_UP[] = "\033[A";
+char CURSOR_DN[] = "\033[B";
+char CURSOR_RT[] = "\033[C";
+char CURSOR_LF[] = "\033[D";
